@@ -1,0 +1,27 @@
+{
+  "name": "projektjs",
+  "version": "1.0.0",
+  "description": "cwiczymy js",
+  "main": "index.js",
+  "scripts": {
+    "test": "kodilla-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamiczek/Kodilla-JS.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Remigiusz Rajca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamiczek/Kodilla-JS/issues"
+  },
+  "homepage": "https://github.com/kamiczek/Kodilla-JS#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}

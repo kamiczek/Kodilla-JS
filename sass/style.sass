@@ -1,0 +1,102 @@
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+.container
+    max-width: 1200px
+    margin: 0 auto
+
+.clearfix:before,
+.clearfix:after
+    content: ""
+    display: table
+    clear: both
+
+/* header */
+
+header
+    background-color: aquamarine
+    .container
+        nav
+            float: right
+            ul
+                li
+                    display: inline-block
+                    a
+                        width: 100px
+                        height: 30px
+                        display: block
+                        text-align: center
+                        line-height: 30px
+                        &:hover
+                            background-color: #c1ffea
+
+/* main */
+
+main
+    height: 100vh
+    width: 100%
+    background-color: #d0eba0
+    text-align: center
+    h1
+        color: #FFF
+        font-size: 72px
+        padding-top: 45vh
+
+/* gallery */
+
+.gallery
+    background-color: #b25050
+    .photo
+        img
+            width: 100%
+
+.photo
+    float: left
+    width: 30%
+    margin-right: 5%
+    &:last-of-type
+        margin-right: 0
+
+.margin
+    margin-top: 100px
+    margin-bottom: 100px
+
+/* mapa */
+
+.map
+    padding: 100px 0
+    .container
+        img
+            width: 100%
+
+/* footer */
+
+footer
+    background-color: burlywood
+    padding: 50px 0
+
+/* MEDIA */
+
+@media (max-width: 768px)
+    
+    /* header */
+    
+    header
+        text-align: center
+        .container
+            nav
+                float: none
+                ul
+                    li
+                        display: block
+                        a
+                            display: inline-block
+
+    /* gallery */
+    
+    .photo 
+        float: none
+        width: 100%
+        padding: 0 10%
